@@ -38,6 +38,9 @@ coredomainWhitelist = {
         'recovery',
         'system_server',
         'vendor_init',
+        'healthd',
+        'modprobe',
+        'slideshow',
         }
 coredomainWhitelist |= coreAppdomain
 
