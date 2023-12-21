@@ -32,6 +32,7 @@
 /proc               u:object_r:rootfs:s0
 /sys                u:object_r:sysfs:s0
 /apex               u:object_r:apex_mnt_dir:s0
+/volumes            u:object_r:rootfs:s0
 
 # Symlinks
 /bin                u:object_r:rootfs:s0
